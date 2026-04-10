@@ -43,14 +43,13 @@ task-manager-app/
 ---
 
 
-### 🔹 1. Clone the Repository
-
+🔹 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/task-manager-app.git
+
 🔹 2. Backend Setup (Spring Boot)
 cd backend
 mvn spring-boot:run
-
 Backend runs on:
 http://localhost:9225/tasks
 http://localhost:9225/api/users
@@ -59,7 +58,6 @@ http://localhost:9225/api/users
 cd frontend
 npm install
 npm start
-
 Frontend runs on:
 http://localhost:5174
 
