@@ -40,11 +40,10 @@ task-manager-app/
 
 ## ⚙️ How to Run the Project
 
----
 
 
 🔹 1. Clone the Repository
-```bash
+---bash
 git clone https://github.com/your-username/task-manager-app.git
 
 🔹 2. Backend Setup (Spring Boot)
