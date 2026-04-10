@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Page background */
+body {
+  background: #f4f6f9;
+}
+
+/* Container */
+div {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Heading */
+h1, h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Inputs */
+input {
+  padding: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+}
+
+/* Table header */
+th {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+}
+
+/* Table rows */
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row color */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Messages */
+p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
